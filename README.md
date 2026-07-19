@@ -18,11 +18,12 @@ https://raw.githubusercontent.com/JordanQD/QiE_Live/main/qie.json
 - 搜索房间号或 qie.tv 房间链接添加直播间
 - 房间号和 qie.tv 分享链接解析
 - 企鹅体育官网平台图标和主播头像
+- 免登录 WebSocket 实时弹幕
 
-通用关键词搜索、房间列表和弹幕尚未实现。
+通用关键词搜索和房间列表尚未实现。
 
 ## 文件
 
 - `qie.json`：Live 插件订阅源
-- `plugin/qie-1.0.2/`：当前插件源码与图标资源
-- `dist/qie-1.0.2.zip`：当前可安装插件包的仓库副本
+- `plugin/qie-1.1.0/`：当前插件源码、弹幕驱动与透明图标资源
+- `dist/qie-1.1.0.zip`：当前可安装插件包的仓库副本
