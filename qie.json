@@ -1,20 +1,21 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-07-19T18:39:18+08:00",
+  "generatedAt": "2026-07-19T18:55:50+08:00",
   "sourceName": "企鹅体育插件源",
   "plugins": [
     {
       "pluginId": "qie",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "platform": "qie",
       "platformName": "企鹅体育",
       "zipURLs": [
-        "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.0.1/qie-1.0.1.zip?sha256=11df55ccebdadfb9377931f9078be170826e5e4fbf8c6d655516287428ecf519"
+        "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.0.2/qie-1.0.2.zip?sha256=1cad216c58a17125b1e124a6cd43cd454346d2dacf491f73bdbed62655ecc07d"
       ],
-      "zipURL": "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.0.1/qie-1.0.1.zip?sha256=11df55ccebdadfb9377931f9078be170826e5e4fbf8c6d655516287428ecf519",
-      "sha256": "11df55ccebdadfb9377931f9078be170826e5e4fbf8c6d655516287428ecf519",
+      "zipURL": "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.0.2/qie-1.0.2.zip?sha256=1cad216c58a17125b1e124a6cd43cd454346d2dacf491f73bdbed62655ecc07d",
+      "sha256": "1cad216c58a17125b1e124a6cd43cd454346d2dacf491f73bdbed62655ecc07d",
       "platformDescription": "体育赛事与综合内容直播平台",
       "changelog": [
+        "补充企鹅体育官网平台图标，并通过官方用户信息接口补齐主播头像",
         "开放搜索入口，支持输入企鹅体育房间号或房间链接添加直播间",
         "支持免登录获取房间详情和直播状态",
         "支持企鹅体育分钟签名与 FLV 播放",
@@ -52,6 +53,10 @@
           "status": "unavailable"
         }
       },
+      "icon": "assets/live_card_qie.png",
+      "tvosIcon": "assets/live_card_qie.png",
+      "iosIcon": "assets/live_card_qie.png",
+      "macosIcon": "assets/live_card_qie.png",
       "visibility": "public"
     }
   ]
