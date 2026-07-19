@@ -36,5 +36,5 @@ https://raw.githubusercontent.com/JordanQD/QiE_Live/main/qie.json
 ## 文件
 
 - `qie.json`：Live 插件订阅源
-- `plugin/qie-1.1.1/`：当前插件源码、弹幕驱动与透明图标资源
-- `dist/qie-1.1.1.zip`：当前可安装插件包的仓库副本
+- `plugin/qie-1.1.2/`：当前插件源码、弹幕驱动与透明图标资源
+- `dist/qie-1.1.2.zip`：当前可安装插件包的仓库副本
