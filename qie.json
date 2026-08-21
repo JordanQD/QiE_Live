@@ -1,20 +1,21 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-07-19T21:42:30+08:00",
+  "generatedAt": "2026-08-21T23:22:42+08:00",
   "sourceName": "企鹅体育插件源",
   "plugins": [
     {
       "pluginId": "qie",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "platform": "qie",
       "platformName": "企鹅体育",
       "zipURLs": [
-        "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.1.2/qie-1.1.2.zip?sha256=ae051963a7679638052ea9ff08eff133280af8c073912a65f1a93a49b783ea1f"
+        "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.2.0/qie-1.2.0.zip?sha256=c460416753435ffedb316a476b8508bbfcd7412f8ee0a46bc9faae6b149ff7ca"
       ],
-      "zipURL": "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.1.2/qie-1.1.2.zip?sha256=ae051963a7679638052ea9ff08eff133280af8c073912a65f1a93a49b783ea1f",
-      "sha256": "ae051963a7679638052ea9ff08eff133280af8c073912a65f1a93a49b783ea1f",
+      "zipURL": "https://github.com/JordanQD/QiE_Live/releases/download/qie-v1.2.0/qie-1.2.0.zip?sha256=c460416753435ffedb316a476b8508bbfcd7412f8ee0a46bc9faae6b149ff7ca",
+      "sha256": "c460416753435ffedb316a476b8508bbfcd7412f8ee0a46bc9faae6b149ff7ca",
       "platformDescription": "体育赛事与综合内容直播平台",
       "changelog": [
+        "支持按企鹅体育主分类与子分类浏览直播间，并支持每页 60 个房间的分页加载",
         "修复多清晰度 requestContext 类型导致 iOS 解码失败；补充 clearCredential 无登录兼容方法",
         "按企鹅体育网页接口实际返回的流数量动态显示清晰度，并在刷新播放地址时保持所选档位",
         "支持企鹅体育免登录 WebSocket 实时弹幕；Big/Small 平台图标改为透明背景",
@@ -35,7 +36,7 @@
           "status": "available"
         },
         "rooms": {
-          "status": "unavailable"
+          "status": "available"
         },
         "playback": {
           "status": "available"
