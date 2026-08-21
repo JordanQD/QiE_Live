@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/JordanQD/QiE_Live/main/qie.json
 插件目前支持：
 
 - 无需登录获取直播
-- 分类、房间详情和直播状态
+- 主分类、子分类、分页房间列表、房间详情和直播状态
 - FLV 播放地址及过期刷新
 - 按官网当前返回的流数量动态显示清晰度
 - 搜索房间号或 qie.tv 房间链接添加直播间
@@ -31,10 +31,10 @@ https://raw.githubusercontent.com/JordanQD/QiE_Live/main/qie.json
 - 企鹅体育官网平台图标和主播头像
 - 免登录 WebSocket 实时弹幕
 
-通用关键词搜索和房间列表尚未实现。
+通用关键词搜索尚未实现；房间列表会按照企鹅体育官网的主分类和子分类加载，每页最多 60 个直播间。
 
 ## 文件
 
 - `qie.json`：Live 插件订阅源
-- `plugin/qie-1.1.2/`：当前插件源码、弹幕驱动与透明图标资源
-- `dist/qie-1.1.2.zip`：当前可安装插件包的仓库副本
+- `plugin/qie-1.2.0/`：当前插件源码、弹幕驱动与透明图标资源
+- `dist/qie-1.2.0.zip`：当前可安装插件包的仓库副本
