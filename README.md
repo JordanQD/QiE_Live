@@ -38,3 +38,7 @@ https://raw.githubusercontent.com/JordanQD/QiE_Live/main/qie.json
 - `qie.json`：Live 插件订阅源
 - `plugin/qie-1.2.4/`：当前插件源码、弹幕驱动与透明图标资源
 - `dist/qie-1.2.4.zip`：当前可安装插件包的仓库副本
+
+## 开发文档
+
+- [LiveParse 直播平台插件制作与发布流程](PLUGIN_DEVELOPMENT_WORKFLOW.md)
